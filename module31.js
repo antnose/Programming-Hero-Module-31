@@ -160,12 +160,12 @@
 // const total = numbers.reduce((a, b) => a + b, 0);
 // console.log(total);
 
-const products = [
-  { id: 1, name: "Apple", price: 56000 },
-  { id: 2, name: "Dell", price: 66000 },
-  { id: 3, name: "Accer", price: 77000 },
-  { id: 4, name: "Walton", price: 88000 },
-];
+// const products = [
+//   { id: 1, name: "Apple", price: 56000 },
+//   { id: 2, name: "Dell", price: 66000 },
+//   { id: 3, name: "Accer", price: 77000 },
+//   { id: 4, name: "Walton", price: 88000 },
+// ];
 
 // Map
 // const names = products.map((p) => p.name);
@@ -185,5 +185,47 @@ const products = [
 // console.log(affordable);
 
 // reduce
-const total = products.reduce((accum, current) => accum + current.price, 0);
-console.log(total);
+// const total = products.reduce((accum, current) => accum + current.price, 0);
+// console.log(total);
+
+// 31-6 (Optional) Introduction To Class And Objects
+
+// const products = [
+//   { id: 1, name: "Apple", price: 56000 },
+//   { id: 2, name: "Dell", price: 66000 },
+//   { id: 3, name: "Accer", price: 77000 },
+//   { id: 4, name: "Walton", price: 88000 },
+// ];
+
+// has some properties, method
+// class Product {
+//   country = "Bangladesh";
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   speak(talk) {
+//     console.log(`Talking about ${talk}`);
+//   }
+// }
+
+// const lenevo = new Product("Le Le Lenevo");
+// console.log(lenevo);
+
+// lenevo.speak("Oba Kita Kou");
+
+class Teacher {
+  lecture() {
+    console.log(`Sir is teaching Math`);
+  }
+  constructor(name, subject) {
+    this.name = name;
+    this.subject = subject;
+  }
+}
+
+const rony = new Teacher("Rony", "Math");
+console.log(rony);
+
+const milon = new Teacher("Milon", "ICT");
+console.log(milon);
