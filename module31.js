@@ -154,3 +154,36 @@
  * 3. filter: The filter() method of Array instances creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
  * 4. find: The find() method instances returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
  */
+
+// 31-5 (Recap) Map, ForEach,Filter, find, reduce
+// const numbers = [75, 65, 67, 72, 55, 59];
+// const total = numbers.reduce((a, b) => a + b, 0);
+// console.log(total);
+
+const products = [
+  { id: 1, name: "Apple", price: 56000 },
+  { id: 2, name: "Dell", price: 66000 },
+  { id: 3, name: "Accer", price: 77000 },
+  { id: 4, name: "Walton", price: 88000 },
+];
+
+// Map
+// const names = products.map((p) => p.name);
+// console.log(names);
+// const price = products.map((p) => p.price);
+// console.log(price);
+
+// forEach
+// products.forEach((p) => console.log(p.id));
+
+// filter
+// const expensive = products.filter((p) => p.price > 80000);
+// console.log(expensive);
+
+// find
+// const affordable = products.find((p) => p.price > 55000);
+// console.log(affordable);
+
+// reduce
+const total = products.reduce((accum, current) => accum + current.price, 0);
+console.log(total);
