@@ -214,18 +214,47 @@
 
 // lenevo.speak("Oba Kita Kou");
 
-class Teacher {
-  lecture() {
-    console.log(`Sir is teaching Math`);
-  }
-  constructor(name, subject) {
-    this.name = name;
-    this.subject = subject;
-  }
-}
+// class Teacher {
+//   lecture() {
+//     console.log(`Sir is teaching Math`);
+//   }
+//   constructor(name, subject) {
+//     this.name = name;
+//     this.subject = subject;
+//   }
+// }
 
-const rony = new Teacher("Rony", "Math");
-console.log(rony);
+// const rony = new Teacher("Rony", "Math");
+// console.log(rony);
 
-const milon = new Teacher("Milon", "ICT");
-console.log(milon);
+// const milon = new Teacher("Milon", "ICT");
+// console.log(milon);
+
+// 31-7 (Optional)Inheritance Prototypical Inheritance
+
+// class Vehicle {
+//   constructor(name, price) {
+//     this.name = name;
+//     this.price = price;
+//   }
+
+//   move() {
+//     console.log(`Gari Chole na Chole na Cholena re`);
+//   }
+// }
+
+// class Bus extends Vehicle {
+//   constructor(name, price, seat, ticketPrice) {
+//     super(name, price);
+//     this.seat = seat;
+//     this.ticketPrice = ticketPrice;
+//   }
+// }
+
+// class Truck extends Vehicle {
+//   constructor(name, price, load) {
+//     super(name, price);
+//     this.load = load;
+//   }
+
+// }
