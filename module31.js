@@ -128,4 +128,29 @@
 // }
 // console.log(doubled);
 
-// 7.08
+// 31-4 Foreach, Filter, Find and Differences Between Them
+
+// foreach loop
+// const numbers = [1, 2, 35, 5, 78, 9, 10, 23, 567];
+// const result = numbers.forEach((n) => console.log(n));
+// console.log(result);
+
+// Filter selects some
+// const numbers = [1, 2, 35, 5, 78, 9, 10, 23, 567];
+// const players = [75, 65, 67, 72, 56, 59];
+// const selected = players.filter((p) => p > 50);
+// const selected = players.filter((p) => p % 2 === 0);
+// console.log(selected);
+
+// const players = [75, 65, 67, 72, 55, 59];
+// const selected = players.find((player) => player > 70);
+// const selected = players.find((player) => player > 80);
+// console.log(selected);
+
+/**
+ * 1. map: The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array
+ * ১. ম্যাপ (বাংলা): ম্যাপ একটা এরের প্রত্যেকটা উপাদানের কাছে যায় এবং যেই কাজটা দেয়া থাকে তা প্রত্যেকটা উপাদানের জন্য করে এবং রেজাল্টটা একটা এরের মধ্যে রাখে এবং ফাইনাল এরেটাকেই রিটার্ন করে।
+ * 2. forEach: The forEach() method of Array instances executes a provided function once for each array element
+ * 3. filter: The filter() method of Array instances creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+ * 4. find: The find() method instances returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+ */
