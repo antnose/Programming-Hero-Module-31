@@ -258,3 +258,38 @@
 //   }
 
 // }
+
+// 31-8 (Advanced) This keyword, Dot Notation Vs Bracket Notation
+
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   sleep() {
+//     console.log(`Sleeping now ${this.name}`);
+//   }
+//   activity() {
+//     this.sleep();
+//   }
+// }
+
+// const kodom = new Person("Kodom Ali", 28);
+// console.log(kodom);
+// kodom.sleep();
+
+// const badam = new Person("Kacha Badam", 23);
+// badam.sleep();
+
+// const nut = new Person("Nut ", 21);
+// nut.activity();
+
+// Bejal
+// const lazy = kodom.sleep;
+// lazy();
+
+// const person = {
+//   name: "Kodom Ali",
+//   job: "Badam Khai",
+// };
+// console.log(person["job"]);
