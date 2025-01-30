@@ -83,3 +83,49 @@
 
 // console.log(user2.address.street?.second);
 // I use a question mark after street this question mark called optional chain
+
+//---> 31-3 Array Map To Do One Line Loop Magic <---\\
+
+// map ==> Loops through each element of the array and do the operation that you passed in the call back function and hold the result from each operation in an array and finally returns you the array
+
+// const numbers = [4, 5, 7, 8, 9, 10];
+
+// // ##### First Method Start
+// function doubleIt(num) {
+//   return num * 2;
+// }
+// const result = numbers.map(doubleIt);
+// // ##### First Method End
+
+// Second Method Start #####
+
+// const double2 = (n) => n * 2;
+// const output = numbers.map(double2);
+// console.log(output);
+
+// Second Method End #####
+
+// Third Method Start #####
+// const output2 = numbers.map((n) => n * 2);
+// console.log(output2);
+// Third Method End #####
+
+// const numbers = [12, 10, 8, 14, 9];
+// const doubled = numbers.map((num) => num * 2);
+// console.log(doubled);
+
+// const fiveBonus = numbers.map((num) => num + 5);
+// console.log(fiveBonus);
+
+// const friends = ["Tom", "John", "Michel", "Oliver"];
+// const lengths = friends.map((n) => n.length);
+// console.log(lengths);
+
+// const doubled = [];
+// for (const num of numbers) {
+//   const double = num * 2;
+//   doubled.push(double);
+// }
+// console.log(doubled);
+
+// 7.08
