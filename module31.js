@@ -293,3 +293,42 @@
 //   job: "Badam Khai",
 // };
 // console.log(person["job"]);
+
+// 31-9 Explore Chrome Devtool Console Tab Features
+/**
+ * this video was theoretically
+ */
+
+// 31-10 JavaScript Errors And Practice Tasks
+
+// let data = {
+//   Sophia: {
+//     id: 33,
+//     study: [
+//       {
+//         primary: [
+//           { school_name: "ABC Primary School" },
+//           { location: "Peters Burg" },
+//         ],
+//       },
+//       {
+//         secondary: [
+//           { school_name: "ABC Secondary School" },
+//           { loction: "ST Location" },
+//         ],
+//       },
+//     ],
+//   },
+// };
+
+// console.log(data.Sophia.study[1].secondary[1]);
+
+// Find the senior
+// const instructor = [
+//   { name: "Ibrahim", age: 28, position: "Senior" },
+//   { name: "Yeasin", age: 20, position: "Junior" },
+//   { name: "Tanvir", age: 26, position: "Senior" },
+// ];
+
+// const post = instructor.filter((p) => p.position === "Senior");
+// console.log(post);
